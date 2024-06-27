@@ -1,7 +1,17 @@
-user_prompt = " Enter a todo:"
-todo1 = input(user_prompt)
-todo2 = input(user_prompt)
-todo3 = input(user_prompt)
 
-todos= [todo1, todo2, todo3]
-print(todos)  
+#===========================================================================
+# Test 3
+
+#  We have a list of three strings defined in the code area.
+
+# Extend the code so your program prints out the following out of that list:
+
+# 0-Document.txt
+# 1-Report.txt
+# 2-Presentation.txt
+
+# filenames = ['document', 'report', 'presentation']
+
+# for index, file in enumerate(filenames):
+#     print(f"{index}-{file}.txt")
+# =============================================================================
