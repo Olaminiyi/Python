@@ -1,7 +1,7 @@
 todos = []
 
 while True: 
-    user_action = input("Type add, show, edit or exit: ")
+    user_action = input("Type add, show, edit, complete or exit: ")
     user_action = user_action.strip()
 
     match user_action:
@@ -10,6 +10,7 @@ while True:
             todos.append(todo)
         case 'show':
             for index, item in enumerate(todos):
+                #add f string to close the gap the number and todos item
                 row = f"{index + 1}.{item}"
                 print(row)
         case 'edit':
