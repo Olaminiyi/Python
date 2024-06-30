@@ -1,0 +1,4 @@
+- Added match function with "case" to present option to choose from difeerent choices
+- added strip() function to remove empty spaces around entries
+- added enumerate function to number items in a list accordingly
+- added pop function to delete an entry from a list 
