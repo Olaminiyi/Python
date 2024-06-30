@@ -15,6 +15,10 @@ while True:
             file.writelines(todos)
             file.close()
         case 'show':
+            file = open('todos.txt', 'r')
+            todos = file.readlines()
+            file.close()
+
             for index, item in enumerate(todos):
                 #add f string to close the gap the number and todos item
                 row = f"{index + 1}.{item}"
